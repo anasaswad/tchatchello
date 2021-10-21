@@ -25,17 +25,17 @@
 
     <!-- initCustomElements -->
     <meta name="wix-dynamic-custom-elements" content="DropDownMenu">
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt~bootstrap-classic.ff5cd63c.chunk.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt~common-site-members-dialogs.d78bf087.chunk.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt~bootstrap-responsive.a66c1914.chunk.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[FiveGridLine_SolidLine].f7e8d006.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt~bootstrap.15f0deb3.chunk.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[LoginSocialBar].7c1692b1.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[Container_DefaultAreaSkin].b604fd33.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[SkipToContentButton].3626b1fa.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[AppWidget_Classic].16e44c05.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[FormContainer_FormContainerSkin].7c602eb2.min.css"></style>-->
-<!--    <style data-href="https://static.parastorage.com/services/wix-thunderbolt/dist/TPABaseComponent.fdd66901.chunk.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt~bootstrap-classic.ff5cd63c.chunk.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt~common-site-members-dialogs.d78bf087.chunk.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt~bootstrap-responsive.a66c1914.chunk.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[FiveGridLine_SolidLine].f7e8d006.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt~bootstrap.15f0deb3.chunk.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[LoginSocialBar].7c1692b1.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[Container_DefaultAreaSkin].b604fd33.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[SkipToContentButton].3626b1fa.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[AppWidget_Classic].16e44c05.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/editor-elements/dist/rb_wixui.thunderbolt[FormContainer_FormContainerSkin].7c602eb2.min.css"></style>-->
+    <!--    <style data-href="https://static.parastorage.com/services/wix-thunderbolt/dist/TPABaseComponent.fdd66901.chunk.min.css"></style>-->
     <title>Tcha Tchello Company </title>
     <link rel="canonical" href="https://www.tchatchello.de/">
     <meta property="og:title" content="Home | tchatchello Company ">
@@ -51,21 +51,28 @@
           crossorigin="">
     <link rel="stylesheet" type="text/css" href="Home%20|%20tchatchello%20Company_files/TPAPopup.css"
           crossorigin="anonymous">
+    <script>
+        function startVideo() {
+            const video = document.querySelector("#intro1");
+            video.play();
+        }
+    </script>
 </head>
-<body>
+<body onload="startVideo()">
 
-<video autoplay loop muted playsinline style="position: fixed; top: 0; left:0; width: 100%; object-fit: cover">
+<video id="intro1" loop muted playsinline style="position: fixed; top: 0; left:0; width: 100%; object-fit: cover">
     <source src="shisha2-1.mp4" type="video/mp4">
 </video>
 
 <div id="SITE_CONTAINER">
-    <style id="STYLE_OVERRIDES_ID">#SITE_HEADER-placeholder {
-        height: 124px;
-    }
+    <style id="STYLE_OVERRIDES_ID">
+        #SITE_HEADER-placeholder {
+            height: 124px;
+        }
 
-    #comp-k362d40i {
-        visibility: hidden !important;
-    }</style>
+        #comp-k362d40i {
+            visibility: hidden !important;
+        }</style>
     <div id="main_MF">
         <div id="SCROLL_TO_TOP" class="qhwIj ignore-focus" tabindex="-1" role="region" aria-label="top of page">&nbsp;
         </div>
