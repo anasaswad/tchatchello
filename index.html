@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Wix.com Website Builder">
 
     <link rel="icon" sizes="192x192" href="https://static.parastorage.com/client/pfavico.ico">
     <link rel="shortcut icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon">
@@ -60,9 +59,14 @@
 </head>
 <body onload="startVideo()">
 
-<video id="intro1" loop muted playsinline style="position: fixed; top: 0; left:0; width: 100%; object-fit: cover">
-    <source src="shisha2-1.mp4" type="video/mp4">
-</video>
+<picture style="position: fixed; top: 0; left:0; width: 100%; object-fit: cover">
+    <source srcset="shisha2-1.mp4" type="video/mp4">
+    <video id="intro1"autoplay loop muted playsinline style="position: fixed; top: 0; left:0; width: 100%; object-fit: cover">
+        <source src="shisha2-1.mp4" type="video/mp4">
+    </video>
+    <img src="shisha2-1.mp4" alt="Tcha Tchello Intro">
+</picture>
+
 
 <div id="SITE_CONTAINER">
     <style id="STYLE_OVERRIDES_ID">
